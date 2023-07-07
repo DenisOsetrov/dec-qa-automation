@@ -28,7 +28,7 @@ public class BaseTest {
         //https://checkcps.com/double-click/ - URL TO DOUBLE CLICK
 //    "https://faculty.washington.edu/chudler/java/boxes.html" - URL WITH CHECKBOXES
 //        https://www.youtube.com/ - CONTROL CHECK
-        Selenide.open("https://owu.com.ua/");
+        Selenide.open("https://www.saucedemo.com/");
     }
 
 //    @AfterMethod(alwaysRun = true)
