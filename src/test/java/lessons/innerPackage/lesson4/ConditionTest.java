@@ -1,7 +1,7 @@
 package lessons.innerPackage.lesson4;
 
 import com.codeborne.selenide.Condition;
-import config.BaseTest;
+import base.config.BaseTest;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -72,7 +72,6 @@ public class ConditionTest extends BaseTest {
         expectedTextsFromBurgerMenu.add("Reset App State");
 
         $(By.xpath("//button[@id='react-burger-menu-btn']")).click();
-
 
         List<String> textsFromBurgerMenu = $$(By.xpath("//a[@class='bm-item menu-item']")).texts();
 

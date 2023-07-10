@@ -1,6 +1,6 @@
 package lessons.innerPackage.lesson2;
 
-import config.BaseTest;
+import base.config.BaseTest;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 

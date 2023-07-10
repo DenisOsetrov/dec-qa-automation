@@ -3,7 +3,7 @@ package lessons.innerPackage.lesson3;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.FileDownloadMode;
 import com.codeborne.selenide.Selenide;
-import config.BaseTest;
+import base.config.BaseTest;
 import org.openqa.selenium.By;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
