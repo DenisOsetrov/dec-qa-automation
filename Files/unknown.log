@@ -1,0 +1,17 @@
+20:38:39 | INFO | WebDriverThreadLocalContainer:138        | No webdriver is bound to current thread: 1 - let's create a new webdriver
+20:38:39 | INFO | FileHelper:56                            | Creating folder: C:\Users\user\IdeaProjects\dec-qa-automation\build\downloads\1689356319264_3800_1
+20:38:39 | INFO | WebDriverManager:966                     | Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+20:38:39 | INFO | WebDriverManager:1021                    | Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+20:38:40 | INFO | HttpClientTimeouts:81                    | Changed connectTimeout from 120000 to 60000
+20:38:40 | INFO | HttpClientTimeouts:82                    | Changed readTimeout from 10800000 to 120000
+20:38:40 | INFO | BrowserResizer:28                        | Set browser size to 1366x768
+20:38:40 | INFO | WebDriverFactory:138                     | BrowserName=chrome Version=114.0.5735.199 Platform=WINDOWS
+20:38:40 | INFO | WebDriverFactory:79                      | Selenide v. 5.25.1
+20:38:40 | INFO | WebDriverFactory:132                     | Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+20:38:40 | INFO | CreateDriverCommand:71                   | Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (d0f7c39d99aa03ed04ae740c1debeffc)
+20:38:40 | INFO | WebDriverThreadLocalContainer:163        | Browser and proxy will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on WINDOWS (d0f7c39d99aa03ed04ae740c1debeffc), null
+20:38:41 | INFO | LoginPage:21                             | Type user name ', element -> By.xpath: //input[@placeholder='Username']
+20:38:41 | INFO | LoginPage:21                             | Type password ', element -> By.xpath: //input[@placeholder='Password']
+20:38:41 | INFO | LoginPage:21                             | Click login button ', element -> By.xpath: //input[@type='submit']
+20:38:42 | INFO | FileHelper:81                            | Deleted empty folder: C:\Users\user\IdeaProjects\dec-qa-automation\build\downloads\1689356319264_3800_1
+20:38:42 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 26 -> ChromeDriver: chrome on WINDOWS (d0f7c39d99aa03ed04ae740c1debeffc), null
