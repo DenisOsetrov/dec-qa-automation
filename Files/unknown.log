@@ -1,14 +1,55 @@
-20:29:27 | INFO | WebDriverThreadLocalContainer:138        | No webdriver is bound to current thread: 1 - let's create a new webdriver
-20:29:27 | INFO | FileHelper:56                            | Creating folder: C:\Users\user\IdeaProjects\dec-qa-automation\build\downloads\1689614967363_8844_1
-20:29:27 | INFO | WebDriverManager:966                     | Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
-20:29:27 | INFO | WebDriverManager:1021                    | Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-20:29:29 | INFO | HttpClientTimeouts:81                    | Changed connectTimeout from 120000 to 60000
-20:29:29 | INFO | HttpClientTimeouts:82                    | Changed readTimeout from 10800000 to 120000
-20:29:29 | INFO | BrowserResizer:28                        | Set browser size to 1366x768
-20:29:29 | INFO | WebDriverFactory:138                     | BrowserName=chrome Version=114.0.5735.199 Platform=WINDOWS
-20:29:29 | INFO | WebDriverFactory:79                      | Selenide v. 5.25.1
-20:29:29 | INFO | WebDriverFactory:132                     | Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
-20:29:29 | INFO | CreateDriverCommand:71                   | Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (a1edece2e5e17545e6142adff8d3e9b4)
-20:29:29 | INFO | WebDriverThreadLocalContainer:163        | Browser and proxy will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on WINDOWS (a1edece2e5e17545e6142adff8d3e9b4), null
-20:29:33 | INFO | FileHelper:81                            | Deleted empty folder: C:\Users\user\IdeaProjects\dec-qa-automation\build\downloads\1689614967363_8844_1
-20:29:33 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 26 -> ChromeDriver: chrome on WINDOWS (a1edece2e5e17545e6142adff8d3e9b4), null
+20:19:02 | INFO | WebDriverThreadLocalContainer:138        | No webdriver is bound to current thread: 1 - let's create a new webdriver
+20:19:02 | INFO | FileHelper:56                            | Creating folder: C:\Users\user\IdeaProjects\dec-qa-automation\build\downloads\1689959942440_4024_1
+20:19:02 | INFO | WebDriverManager:966                     | Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+20:19:02 | INFO | WebDriverManager:1021                    | Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+20:19:04 | INFO | HttpClientTimeouts:81                    | Changed connectTimeout from 120000 to 60000
+20:19:04 | INFO | HttpClientTimeouts:82                    | Changed readTimeout from 10800000 to 120000
+20:19:04 | INFO | BrowserResizer:28                        | Set browser size to 1366x768
+20:19:04 | INFO | WebDriverFactory:138                     | BrowserName=chrome Version=114.0.5735.199 Platform=WINDOWS
+20:19:04 | INFO | WebDriverFactory:79                      | Selenide v. 5.25.1
+20:19:04 | INFO | WebDriverFactory:132                     | Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+20:19:04 | INFO | CreateDriverCommand:71                   | Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (93b876202857fc5297612173b849821e)
+20:19:04 | INFO | WebDriverThreadLocalContainer:163        | Browser and proxy will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on WINDOWS (93b876202857fc5297612173b849821e), null
+20:19:05 | INFO | LoginPage:21                             | Type user name ', element -> By.xpath: //input[@placeholder='Username']
+20:19:05 | INFO | LoginPage:21                             | Type password ', element -> By.xpath: //input[@placeholder='Password']
+20:19:05 | INFO | LoginPage:21                             | Click login button ', element -> By.xpath: //input[@type='submit']
+20:19:05 | INFO | MainPage:21                              | Wait main page logo ', should be visible in -> 3000 seconds By.xpath: //div[@class='app_logo']
+20:19:06 | INFO | MainPage:21                              | Get items ', elements -> By.xpath: //div[@class='inventory_item_name']
+20:19:06 | INFO | MainPage:21                              | Get items ', elements -> By.xpath: //div[@class='inventory_item_desc']
+20:19:06 | INFO | MainPage:21                              | Get items ', elements -> By.xpath: //div[@class='inventory_item_price']
+20:19:06 | INFO | DetailItemPage:21                        | Get detail item ', element -> By.xpath: //div[contains(@class, 'inventory_details_name')]
+20:19:07 | INFO | DetailItemPage:21                        | Get detail item ', element -> By.xpath: (//div[contains(@class,'inventory_details_desc')])[2]
+20:19:07 | INFO | DetailItemPage:21                        | Get detail item ', element -> By.xpath: //div[contains(@class, 'inventory_details_price')]
+20:19:07 | INFO | LoginPage:21                             | Type user name ', element -> By.xpath: //input[@placeholder='Username']
+20:19:07 | INFO | LoginPage:21                             | Type password ', element -> By.xpath: //input[@placeholder='Password']
+20:19:07 | INFO | LoginPage:21                             | Click login button ', element -> By.xpath: //input[@type='submit']
+20:19:07 | INFO | MainPage:21                              | Wait main page logo ', should be visible in -> 1500 seconds By.xpath: //div[@class='app_logo']
+20:19:07 | INFO | MainPage:21                              | Click filter button ', element -> By.xpath: //select[@class='product_sort_container']
+20:19:07 | INFO | MainPage:21                              | Click filter option by id ', element -> By.xpath: //select[@class='product_sort_container']/option[2]
+20:19:08 | INFO | LoginPage:21                             | Type user name ', element -> By.xpath: //input[@placeholder='Username']
+20:19:08 | INFO | LoginPage:21                             | Type password ', element -> By.xpath: //input[@placeholder='Password']
+20:19:08 | INFO | LoginPage:21                             | Click login button ', element -> By.xpath: //input[@type='submit']
+20:19:08 | INFO | MainPage:21                              | Wait main page logo ', should be visible in -> 1500 seconds By.xpath: //div[@class='app_logo']
+20:19:08 | INFO | MainPage:21                              | Get add to cart list ', elements -> By.xpath: //button[text()='Add to cart']
+20:19:08 | INFO | MainPage:21                              | Click add to shopping card button ', element -> By.xpath: //button[text()='Add to cart']
+20:19:08 | INFO | MainPage:21                              | Get add to cart list ', elements -> By.xpath: //button[text()='Add to cart']
+20:19:08 | INFO | MainPage:21                              | Click add to shopping card button ', element -> By.xpath: //button[text()='Add to cart']
+20:19:09 | INFO | MainPage:21                              | Get add to cart list ', elements -> By.xpath: //button[text()='Add to cart']
+20:19:09 | INFO | MainPage:21                              | Click add to shopping card button ', element -> By.xpath: //button[text()='Add to cart']
+20:19:09 | INFO | MainPage:21                              | Get add to cart list ', elements -> By.xpath: //button[text()='Add to cart']
+20:19:09 | INFO | MainPage:21                              | Click add to shopping card button ', element -> By.xpath: //button[text()='Add to cart']
+20:19:09 | INFO | MainPage:21                              | Get add to cart list ', elements -> By.xpath: //button[text()='Add to cart']
+20:19:09 | INFO | MainPage:21                              | Click add to shopping card button ', element -> By.xpath: //button[text()='Add to cart']
+20:19:09 | INFO | MainPage:21                              | Get add to cart list ', elements -> By.xpath: //button[text()='Add to cart']
+20:19:09 | INFO | MainPage:21                              | Click add to shopping card button ', element -> By.xpath: //button[text()='Add to cart']
+20:19:09 | INFO | MainPage:21                              | Get add to cart list ', elements -> By.xpath: //button[text()='Add to cart']
+20:19:09 | INFO | MainPage:21                              | Click shopping card button ', element -> By.xpath: //a[@class='shopping_cart_link']
+20:19:10 | INFO | ShoppingCardPage:21                      | Get shopping card elements text ', elements -> By.xpath: //div[@class='cart_item_label']//div[@class='inventory_item_name']
+20:19:10 | INFO | LoginPage:21                             | Type user name ', element -> By.xpath: //input[@placeholder='Username']
+20:19:10 | INFO | LoginPage:21                             | Type password ', element -> By.xpath: //input[@placeholder='Password']
+20:19:10 | INFO | LoginPage:21                             | Click login button ', element -> By.xpath: //input[@type='submit']
+20:19:10 | INFO | MainPage:21                              | Wait main page logo ', should be visible in -> 1500 seconds By.xpath: //div[@class='app_logo']
+20:19:10 | INFO | MainPage:21                              | Click item by name ', element -> By.xpath: //div[@class='inventory_item_name' and text()='Sauce Labs Fleece Jacket']
+20:19:10 | INFO | DetailItemPage:21                        | Is back to products button exist ', element exists -> By.xpath: //button[@id='back-to-products']
+20:19:11 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 27 -> ChromeDriver: chrome on WINDOWS (93b876202857fc5297612173b849821e), null
+20:19:11 | INFO | FileHelper:81                            | Deleted empty folder: C:\Users\user\IdeaProjects\dec-qa-automation\build\downloads\1689959942440_4024_1

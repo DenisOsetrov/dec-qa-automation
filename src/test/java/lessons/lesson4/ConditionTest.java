@@ -1,4 +1,4 @@
-package lessons.innerPackage.lesson4;
+package lessons.lesson4;
 
 import com.codeborne.selenide.Condition;
 import base.config.BaseTest;

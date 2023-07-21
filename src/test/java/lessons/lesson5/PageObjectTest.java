@@ -1,4 +1,4 @@
-package lessons.innerPackage.lesson5;
+package lessons.lesson5;
 
 import base.config.BaseTest;
 import base.pages.BurgerMenuPage;

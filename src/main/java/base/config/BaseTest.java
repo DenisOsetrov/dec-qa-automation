@@ -12,8 +12,8 @@ public class BaseTest {
         Configuration.browser = "chrome";
         Configuration.startMaximized = false;
 //        Configuration.browserSize = "300x200";
-        Configuration.headless = false;
-        Configuration.holdBrowserOpen = true;
+        Configuration.headless = true;
+        Configuration.holdBrowserOpen = false;
         Configuration.timeout = 10000;
         Configuration.pageLoadStrategy = "normal";
         Configuration.screenshots = true;
@@ -30,7 +30,8 @@ public class BaseTest {
 //        https://www.youtube.com/ - CONTROL CHECK
         //https://demoqa.com/frames - iframes
         // http://uitestingplayground.com/shadowdom - shadow css
-        Selenide.open("http://uitestingplayground.com/shadowdom");
+//        https://demoqa.com/progress-bar - progress bar test
+        Selenide.open("https://www.saucedemo.com/");
     }
 
 //    @AfterMethod(alwaysRun = true)

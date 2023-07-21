@@ -1,4 +1,4 @@
-package lessons.innerPackage.lesson6;
+package lessons.lesson6;
 
 import base.config.BaseTest;
 import org.testng.annotations.Test;

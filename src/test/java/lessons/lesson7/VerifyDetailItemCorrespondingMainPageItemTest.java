@@ -1,4 +1,4 @@
-package lessons.innerPackage.lesson7;
+package lessons.lesson7;
 
 import base.config.BaseTest;
 import base.pages.item.Item;

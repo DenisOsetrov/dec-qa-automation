@@ -1,9 +1,6 @@
 package base;
 
-import base.pages.DetailItemPage;
-import base.pages.FooterPage;
-import base.pages.LoginPage;
-import base.pages.MainPage;
+import base.pages.*;
 
 public class Pages {
 
@@ -11,6 +8,7 @@ public class Pages {
     private static MainPage mainPage;
     private static DetailItemPage detailItemPage;
     private static FooterPage footerPage;
+    private static ShoppingCardPage shoppingCardPage;
 
     public static LoginPage loginPage() {
         if (loginPage == null) {
@@ -37,6 +35,13 @@ public class Pages {
             footerPage = new FooterPage();
         }
         return footerPage;
+    }
+
+    public static ShoppingCardPage shoppingCardPage() {
+        if (shoppingCardPage == null) {
+            shoppingCardPage = new ShoppingCardPage();
+        }
+        return shoppingCardPage;
     }
 
 }
