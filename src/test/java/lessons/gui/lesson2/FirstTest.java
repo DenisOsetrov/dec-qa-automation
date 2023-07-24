@@ -1,4 +1,4 @@
-package lessons.lesson2;
+package lessons.gui.lesson2;
 
 import base.config.BaseTest;
 import org.openqa.selenium.By;

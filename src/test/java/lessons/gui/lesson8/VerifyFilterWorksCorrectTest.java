@@ -1,4 +1,4 @@
-package lessons.lesson8;
+package lessons.gui.lesson8;
 
 import base.config.BaseTest;
 import com.codeborne.selenide.Selenide;
@@ -17,7 +17,7 @@ public class VerifyFilterWorksCorrectTest extends BaseTest {
         loginPage().clickLoginButton();
     }
 
-    @Test
+    @Test(description = "[QADECGUI-1]: Verify filter works correct")
     public void filterTest() {
         mainPage().waitMainPageLogo(1500);
 

@@ -1,4 +1,4 @@
-package lessons.lesson8;
+package lessons.gui.lesson8;
 
 import base.config.BaseTest;
 import org.testng.Assert;

@@ -1,4 +1,4 @@
-package lessons.customTests;
+package lessons.gui.customTests;
 
 import base.config.BaseTest;
 import com.codeborne.selenide.Selenide;

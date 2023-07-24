@@ -1,4 +1,4 @@
-package lessons.lesson8;
+package lessons.gui.lesson8;
 
 import base.config.BaseTest;
 import com.codeborne.selenide.Selenide;
@@ -18,7 +18,7 @@ public class VerifyShoppingCartWorksAsExpectedTest extends BaseTest {
         loginPage().clickLoginButton();
     }
 
-    @Test
+    @Test(description = "QADECGUI-2: Verify user is able to add all items from main page to Shopping Card")
     public void shoppingCardTest(){
         mainPage().waitMainPageLogo(1500);
 
