@@ -11,6 +11,7 @@ public class IframeTest extends BaseTest {
 
     @Test
     public void iframeTest(){
+
         Selenide.sleep(3000);
 
         Selenide.switchTo().frame("frame1");
